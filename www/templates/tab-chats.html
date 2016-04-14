@@ -1,16 +1,35 @@
 <ion-view view-title="VIdeojeugos">
   <ion-content>
-    <ion-list>
-      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="chat in chats" type="item-text-wrap" href="#/tab/chats/{{chat.id}}">
-        <img ng-src="{{chat.face}}">
-        <h2>{{chat.name}}</h2>
-        <p>{{chat.lastText}}</p>
-        <i class="icon ion-chevron-right icon-accessory"></i>
-
-        <ion-option-button class="button-assertive" ng-click="remove(chat)">
-          Delete
-        </ion-option-button>
-      </ion-item>
-    </ion-list>
+   <div class="list card">
+    	<div class="item">
+    	    <h2>Tom Clansy's The Division</h2>
+        	<p>Venta</p>
+        	<p>$599.00</p>
+        	</div>
+   	 
+    	<div class="item">
+        	<h2>Dark Souls III</h2>
+        	<p>Venta</p>
+        	<p>$1099.00</p>
+    	</div>
+    	
+    	<div class="item">
+        	<h2>Fallout 4</h2>
+        	<p>Venta</p>
+        	<p>$999.00</p>
+    	</div>
+    	
+    	<div class="item">
+        	<h2>Super Mario Maker</h2>
+        	<p>Venta</p>
+        	<p>$999.00</p>
+    	</div>
+    	
+    	<div class="item">
+        	<h2>Fire Emblame Fates</h2>
+        	<p>Venta</p>
+        	<p>$599.00</p>
+    	</div>
+	</div>
   </ion-content>
 </ion-view>
